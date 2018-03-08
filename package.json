@@ -1,0 +1,15 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "cucumber": "^4.0.0"
+  },
+  "scripts": {
+    "test": "cucumber-js ./features -r ./steps"
+  },
+  "author": "",
+  "license": "ISC"
+}
