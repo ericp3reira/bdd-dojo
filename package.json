@@ -1,14 +1,15 @@
 {
-  "name": "calc",
+  "name": "bdd-dojo",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "cucumber": "^4.0.0"
+    "cucumber": "^4.0.0",
+    "cucumber-pretty": "^1.4.0"
   },
   "scripts": {
-    "test": "cucumber-js ./features -r ./steps"
+    "test:calc": "cucumber-js --format ./node_modules/cucumber-pretty ./calc/features -r ./calc/steps"
   },
   "author": "",
   "license": "ISC"
