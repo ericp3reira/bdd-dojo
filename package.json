@@ -9,7 +9,8 @@
     "cucumber-pretty": "^1.4.0"
   },
   "scripts": {
-    "test:calc": "cucumber-js --format ./node_modules/cucumber-pretty ./calc/features -r ./calc/steps"
+    "test:calc": "cucumber-js --format ./node_modules/cucumber-pretty ./calc/features -r ./calc/steps",
+    "test:fizzBuzz": "cucumber-js --format ./node_modules/cucumber-pretty ./fizzBuzz/features -r ./fizzBuzz/steps"
   },
   "author": "",
   "license": "ISC"
